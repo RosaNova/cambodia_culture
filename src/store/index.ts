@@ -1,13 +1,13 @@
  export const slides = [
   {
     title: "Angkor Wat",
-    background: "https://images.unsplash.com/photo-1604456930969-37f67bcd6e1e?q=80&w=2070",
+    background: "https://res.cloudinary.com/dyfmydbyb/image/upload/v1766407143/visiting-kh_w9h0kd.jpg",
     description: "A UNESCO World Heritage site and the largest religious monument in the world.",
     info: "Built in the 12th century, this magnificent temple complex showcases the grandeur of the Khmer Empire.",
   },
   {
     title: "Phnom Penh",
-    background: "https://images.unsplash.com/photo-1583417319070-4a69db38a482?q=80&w=2070",
+    background: "https://res.cloudinary.com/dyfmydbyb/image/upload/v1766476784/f6bd4978-6127-4dd2-acad-b08ed1991ba1.png",
     description: "The vibrant capital city where tradition meets modernity.",
     info: "Discover the Royal Palace, Silver Pagoda, and the bustling riverside promenade.",
   },
@@ -19,7 +19,7 @@
   },
   {
     title: "Siem Reap",
-    background: "https://images.unsplash.com/photo-1598965675045-f4df2a28323c?q=80&w=2070",
+    background: "https://res.cloudinary.com/dyfmydbyb/image/upload/v1766476731/d80ca5d7-5b35-478e-8ca6-f97b17998f7a.png",
     description: "Gateway to Angkor Archaeological Park and authentic Khmer culture.",
     info: "Explore vibrant markets, traditional performances, and local cuisine.",
   },
@@ -40,5 +40,23 @@
     background: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=2070",
     description: "Coastal town famous for fresh seafood and crab market.",
     info: "Relax in this peaceful seaside escape with French colonial charm.",
+  },
+]
+
+export const nationalFoods = [
+  {
+    name: "Fish Amok (Amok Trei)",
+    description: "Creamy curried fish steamed in banana leaves, the crown jewel of Khmer cuisine.",
+    image: "https://images.unsplash.com/photo-1541832676-9b763b0239ab?q=80&w=2070",
+  },
+  {
+    name: "Nom Banh Chok",
+    description: "Traditional Khmer noodles with a refreshing fish-based green curry and fresh herbs.",
+    image: "https://images.unsplash.com/photo-1512058560366-cd2429bb5c63?q=80&w=2070",
+  },
+  {
+    name: "Bai Sach Chrouk",
+    description: "Sweet grilled pork marinated in coconut milk, served over fragrant broken rice.",
+    image: "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?q=80&w=2070",
   },
 ]

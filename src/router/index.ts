@@ -1,5 +1,12 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import NationalFoodView from '@/views/NationalFoodView.vue'
+import CultureView from '@/views/CultureView.vue'
+import Economy_View from '@/views/Economy_View.vue'
+import Safety_LivingView from '@/views/Safety_LivingView.vue'
+import Language from '@/views/Language.vue'
+import Future_TechnologyView from '@/views/Future_TechnologyView.vue'
+
 
 const routes: RouteRecordRaw[] = [
   {
@@ -10,32 +17,32 @@ const routes: RouteRecordRaw[] = [
    {
     path: '/culture',
     name: 'Culture & Tradition',
-    component: HomeView
+    component:  CultureView
   },
    {
-    path: '/nationFood',
+    path: '/nationalFood',
     name: 'National Food',
-    component: HomeView
+    component: NationalFoodView
   },
   {
     path: '/safety',
     name: 'Safety & Living',
-    component: HomeView
+    component: Safety_LivingView
   },
   {
     path: '/economy',
     name: 'Economy & Opportunity',
-    component: HomeView
+    component:  Economy_View
   },
     {
     path: '/technology',
     name: 'Technology & Future',
-    component: HomeView
+    component: Future_TechnologyView
   },
    {
     path: '/language',
     name: 'Language',
-    component: HomeView
+    component: Language
   }
   
 ]
